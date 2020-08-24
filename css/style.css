@@ -1,0 +1,59 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1 {
+    font-size: 56px;
+    color: gray;
+    text-align: center;
+}
+div.car {
+    width: 22%;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    margin: 1%;
+    padding: 0.5%;
+}
+div.car > img {
+    width:100%;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+footer > h1 {
+    text-align: center;
+    font-size: 40px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.col25 {
+    width: 25%;
+}
+div.contact {
+    overflow: hidden; 
+}
+div.contact > div {
+    float:left;
+}
+table.msg {
+    width: 100%;
+}
+table.msg td {
+    padding: 15px;
+}
+input[type="text"] {
+    width: 100%;
+}
+table tr:nth-last-child {
+    text-align: center;
+}
+footer > p {
+    text-align: center;
+}

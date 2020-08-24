@@ -1,0 +1,95 @@
+/*css header*/
+header > h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    text-shadow: 3px 4px 2px red;
+}
+
+/*css nav*/
+nav {
+    background-color: lightgray;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul.menu > li {
+    min-width: 120px;
+    border-right: 1px solid white;
+    text-align: center;
+}
+
+ul.menu > li:last-child {
+    margin-left: auto;
+}
+
+ul.menu > li > a {
+    text-decoration: none;
+    display: block;
+    padding: 20px 15px;
+}
+
+ul.menu > li > a:hover {
+    background-color: blue;
+    color: white;
+}
+
+/*css body*/
+section.content {
+    background-color: darkgray;
+    margin-top: 20px;
+}
+
+div.img-lang {
+    float: left;
+}
+
+div.lang {
+    overflow: auto;
+    border-bottom: 1px solid white;
+}
+
+/*css footer*/
+footer {
+    background-color:rgba(0, 0, 255, 0.6);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    position: fixed;
+    animation: doimaunen 1s infinite;
+    height: 30px;
+}
+
+@keyframes doimaunen {
+    from
+    {
+        background-color: red;
+    }
+    to
+    {
+        background-color: blue;
+    }
+}
+
+/*css Submenu*/
+.subcontent {
+    display: none !important;
+    position: absolute;
+    background-color: lightgray;
+}
+
+.submenu:hover .subcontent {
+    display: block !important;
+}
+
+.subcontent > li {
+    border-bottom:1px solid white ;
+}

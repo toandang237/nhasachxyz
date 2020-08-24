@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/../thuchanhCSS/images/bg6.gif);
+    color: #FFFFFF;
+}
+
+/*CSS header*/
+div.ou {
+    display: flex;
+    background-image: linear-gradient(#000099, #0066FF);
+    margin-bottom: 6px;
+}
+
+div.diendan {
+    margin: 0;
+}
+
+div.ou > h1 {
+    margin: 20px 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+div.ou > div {
+    width: 100%;
+    padding:0px;
+}
+
+form {
+    width: 100%;
+    padding: 10px;
+}
+
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    background-image: linear-gradient(#0000FF, #00FFFF, #33CCFF);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+table {
+    margin: 0;
+    width: 100%;
+    padding: 50px;
+}
+
+td.row {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+td > h2 {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+td.col {
+    width: 35%;
+}
+
+td > input {
+    width: 95%;
+}
+
+td.gender {
+    display: flex;
+    margin: 0;
+}
+
+td.gender > input {
+    padding: 0;
+    margin: 0px;
+    width: 10%;
+    display: block;
+}
+
+td > select {
+    width: 100%;
+}
+
+td.list {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}

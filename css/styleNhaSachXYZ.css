@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+/* CSS NAV */
+nav {
+    background-color: aqua;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+
+ul.menu > li {
+    min-width: 200px;
+    text-align:center;
+    border-right: 1px solid darkblue;
+}
+
+ul.menu > li > a {
+    text-decoration: none;
+    display: block;
+    padding:20px 10px;
+}
+
+ul.menu > li > a:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* CSS BODY */
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 80%;
+}
+
+section.content {
+    display: flex;
+    background-color: tan;
+}
+
+ul.vertical {
+    flex-direction: column;
+}
+
+ul.vertical > li {
+    text-align: left;
+}
+
+ul.vertical > li > a {
+    background:linear-gradient(blue, lightblue);
+    color: white;
+}
+
+div > h2 {
+    text-align: center;
+}
+
+div.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.book {
+    width:20%;
+    text-align: center;
+    padding: 1%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+
+figure > img {
+    width: 100%;
+}
+
+/* CSS header */
+.col10 {
+    width: 10%;
+}
+
+.col30 {
+    width: 30%;
+}
+
+.col30 + div {
+    margin-right: 0;
+}
+
+header {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+div.col10 > img {
+    width: 100%;
+}
+
+div.ads {
+    display: flex;
+}
+
+div.ads > div {
+    border:1px hidden darkblue;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: yellow;
+    border-right: 1px solid blue;
+}
+
+div.ads > div > a {
+    display: block;
+    text-decoration: none;
+    padding: 70px 5px;
+    margin-bottom: 0;
+}
+
+div.ads > div > a:hover {
+    background-color: lightgreen;
+    color: #000;
+}
